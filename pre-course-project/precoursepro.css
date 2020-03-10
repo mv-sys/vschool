@@ -1,0 +1,16 @@
+.body { 
+    background-color: darkred;
+    color: rgb(255, 255, 255);
+}
+
+.click-here {
+    height: 50px; 
+    width: 75px;
+    transform: translate(655px, 250px)
+}
+
+.click-me-next {
+    height: 50px;
+    width: 105;
+    transform: translate(560px, 320px)
+}

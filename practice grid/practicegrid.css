@@ -1,0 +1,38 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+.darkred {
+    background-color:#8B0000; 
+    grid-column: 1 / 3;
+}
+
+  .babyblue {
+      background-color: #89cff0;
+      grid-column: 3 / 4;
+    
+  }
+
+  .lightpurple {
+    background-color: #6a0dad;
+    grid-column: 1 / 2
+  }
+
+  .orange {
+      background-color: #FFA500;
+      grid-column: 2 / 4;
+  }
+
+  .black {
+      background-color:	#000000;
+      grid-column: 1 / 4;
+  }
